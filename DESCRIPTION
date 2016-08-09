@@ -1,0 +1,10 @@
+Package: straddin
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.0-0
+Author: Facundo Muñoz
+Maintainer: "Facundo Muñoz <facundo.munoz@orleans.inra.fr> [aut, cre]"
+Description: More about what it does (maybe more than one line)
+License: GPL (>= 3)
+LazyData: TRUE
+Encoding: UTF-8

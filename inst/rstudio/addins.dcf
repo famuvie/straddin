@@ -1,0 +1,4 @@
+Name: Print str()
+Description: Prints str() of the highlighted object
+Binding: strAddin
+Interactive: false

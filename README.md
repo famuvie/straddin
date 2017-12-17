@@ -9,7 +9,7 @@ or perhaps the structure of a large object.
 1. install package and restart RStudio
 
     ```r
-    devtools::install_github('famuvie/straddin')
+    remotes::install_github('famuvie/straddin')
     ```
 
 2. Define some key-binding for straddin

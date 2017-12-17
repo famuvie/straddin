@@ -4,17 +4,23 @@
 #'
 #' @export
 strAddin <- function() {
-  # Get the document context.
-  context <- rstudioapi::getActiveDocumentContext()
+  highlight_fun("str")
+}
 
-  # Highlighted text
-  text <- context$selection[[1]]$text
+#' Print object structure at level 0
+#'
+#' Highlight something and print its structure
+#'
+#' @export
+str0Addin <- function() {
+  highlight_fun("str", max.level = 0)
+}
 
-  # str()
-  code <- paste0('str(', text, ')')
-
-  # print(str(context))
-
-  # send code to console
-  rstudioapi::sendToConsole(code, execute = TRUE)
+#' Print object structure at level 1
+#'
+#' Highlight something and print its structure
+#'
+#' @export
+str1Addin <- function() {
+  highlight_fun("str", max.level = 1)
 }

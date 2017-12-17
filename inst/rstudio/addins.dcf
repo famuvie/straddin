@@ -1,4 +1,19 @@
-Name: Print str()
+Name: str()
 Description: Prints str() of the highlighted object
 Binding: strAddin
+Interactive: false
+
+Name: str(0)
+Description: Prints str() of the highlighted object at level 0
+Binding: str0Addin
+Interactive: false
+
+Name: str(1)
+Description: Prints str() of the highlighted object at level 1
+Binding: str1Addin
+Interactive: false
+
+Name: summary()
+Description: Prints summary() of the highlighted object
+Binding: summaryAddin
 Interactive: false

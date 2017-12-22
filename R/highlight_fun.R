@@ -10,10 +10,10 @@ highlight_fun <- function(fun, ...) {
   text <- context$selection[[1]]$text
 
   ## Function arguments
-  fargs <- list(as.name(text), ...)
+  fargs <- list(eval(parse(text = paste0("quote(", text, ")"))), ...)
 
   ## Function call
-  code <- do.call("call", c(fun, fargs), quote = TRUE)
+  code <- as.call(c(as.name(fun), fargs))
 
   ## send code to console
   rstudioapi::sendToConsole(deparse(code), execute = TRUE)

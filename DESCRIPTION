@@ -12,5 +12,5 @@ Imports:
 License: GPL (>= 3)
 LazyData: TRUE
 Encoding: UTF-8
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.0
 Suggests: testthat

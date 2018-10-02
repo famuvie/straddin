@@ -16,7 +16,8 @@ or perhaps the structure of a large object.
 
     RStudio menu: `Tools:Addins:Browse Addins:Keyboard shorcuts...`.
 
-    I use Alt+Shift+S(0, 1, M) for structure, structure at level 0 or 1 and summary respectively.
+    I use Alt+Shift+S/0/1/2/M/? for full structure, structure at level
+    0, 1 or 2, summary and help respectively.
 
 2. highlight something
 

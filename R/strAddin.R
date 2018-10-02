@@ -24,3 +24,12 @@ str0Addin <- function() {
 str1Addin <- function() {
   highlight_fun("str", max.level = 1)
 }
+
+#' Print object structure at level 2
+#'
+#' Highlight something and print its structure
+#'
+#' @export
+str2Addin <- function() {
+  highlight_fun("str", max.level = 2)
+}

@@ -13,7 +13,17 @@ Description: Prints str() of the highlighted object at level 1
 Binding: str1Addin
 Interactive: false
 
+Name: str(2)
+Description: Prints str() of the highlighted object at level 2
+Binding: str2Addin
+Interactive: false
+
 Name: summary()
 Description: Prints summary() of the highlighted object
 Binding: summaryAddin
+Interactive: false
+
+Name: help()
+Description: Prints help() of the highlighted object
+Binding: helpAddin
 Interactive: false
